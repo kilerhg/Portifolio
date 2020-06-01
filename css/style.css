@@ -9,6 +9,25 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+.ion-navigate {
+  font-size: 36px;
+}
+
+h8 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2774cc;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+h8:hover {
+  opacity: 1;
+}
+
 .section-title h7 {
   font-size: 32px;
   font-weight: bold;
