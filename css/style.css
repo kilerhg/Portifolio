@@ -9,13 +9,88 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+ion-icon {
+    font-size: 44px;
+    color: #0078ff;
+    line-height: 44px
+}
+
+
 .ion-navigate {
 
   font-size: 36px;
 
 }
 
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#services {
+  background: #fff;
+  position: relative;
+  padding-bottom: 80px;
+  max-width: 1044px;
+}
 
+.owl-item {
+  float: left;
+}
+
+.services-block span {
+  margin: 10px 0;
+  position: relative;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+}
+
+.services-block .separator {
+  margin: 0;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.services-block i {
+  font-size: 44px;
+  color: #0078ff;
+  line-height: 44px;
+}
+
+.services-carousel .owl-stage-outer {
+  overflow: hidden;
+}
+
+.services-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.services-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  border: 0;
+  padding: 0 !important;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.services-carousel .owl-dot.active {
+  background-color: #0078ff;
+}
+
+.owl-nav {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
 
 
 h9 {
@@ -319,7 +394,6 @@ a:hover {
 
 .owl-theme .owl-dots .owl-dot span {
   width: 18px;
-  height: 7px;
   margin: 5px 5px;
   background: #cde1f8;
   border: 0px solid #cde1f8;
