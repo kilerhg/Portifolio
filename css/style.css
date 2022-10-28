@@ -394,12 +394,14 @@ a:hover {
 .owl-theme .owl-dots .owl-dot span {
   width: 18px;
   margin: 5px 5px;
+  /* height: 7px; */
   background: #cde1f8;
   border: 0px solid #cde1f8;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
+
 
 .owl-theme .owl-dots .owl-dot:hover span {
   background-color: #cde1f8;
