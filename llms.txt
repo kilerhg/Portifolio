@@ -1,0 +1,39 @@
+# Lucas Nunes de Assis — Senior Python & Data Engineer
+
+> Senior Python & Data Engineer (currently at Paramount) with 7+ years across cloud
+> architectures (Azure, AWS), backend systems and end-to-end data pipelines. Led a
+> 6-person engineering team, built Medallion pipelines processing 500M+ rows with
+> Spark/Databricks/Airflow, and designed real-time video analytics (200 concurrent
+> streams) with computer vision and LLM-powered search. Co-founded an education
+> startup and trained 40+ developers (80%+ hired within months).
+
+This file follows the llms.txt convention (https://llmstxt.org) to help AI agents and
+LLM-powered tools discover and read Lucas's CV. The full, machine-readable CV lives at
+[/cv.md](/cv.md).
+
+## Full CV
+
+- [Complete CV (Markdown)](/cv.md): experience, skills, education, certifications, awards, publications and recommendations — the canonical source for automated reads.
+
+## Profiles
+
+- [Portfolio](https://lucasnunes.me): personal portfolio site (this site).
+- [LinkedIn](https://www.linkedin.com/in/lucasnunesdeassis/): professional profile and recommendations.
+- [GitHub](https://github.com/kilerhg): open-source projects and code.
+- [Kaggle](https://www.kaggle.com/kilerhg): data-science notebooks and publications.
+
+## At a glance
+
+- **Current role:** Senior Python / Data Engineer at Paramount (since Sep 2026).
+- **Target roles:** Data Tech Lead / Tech Lead, Senior Data Engineer, Senior Python / Backend Engineer.
+- **Core stack:** Python, FastAPI, Apache Spark / PySpark, Databricks, Airflow, dbt, Snowflake, PostgreSQL (pgvector), AWS, Azure, Docker, LangChain, PyTorch, YOLO.
+- **Domains:** data engineering (ETL/ELT, Medallion architecture), backend/API design, big data, generative AI & agents, computer vision & video streaming, business intelligence.
+- **Languages:** Portuguese (native), English (fluent), Spanish (fluent).
+- **Location:** São Paulo, Brazil — works in distributed, international teams.
+- **Contact:** lucas.nunes.de.assis@gmail.com
+
+## Recent experience
+
+- **Focuz Analytics** (2025–2026) — Senior Python/Data Engineer: AI-first video analytics platform; FastAPI + edge streaming (RTSP/WebRTC), YOLO/PyTorch computer vision, natural-language video search on pgvector, LangChain agents, dbt + Snowflake.
+- **Kantar IBOPE Media** (2024–2025) — Mid-Senior Software/Data Engineer: Medallion pipelines on Spark/Databricks/Airflow/Azure Data Factory processing 500M+ rows; ad-tech metrics and Power BI KPIs.
+- **BDO Brazil** (2021–2024) — Software/Data Engineer, acting team lead of 6; AWS deployments, security-vulnerability remediation, data-harvesting engines and Flask APIs.

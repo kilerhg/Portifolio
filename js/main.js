@@ -39,18 +39,6 @@
     }
   });
 
-  // ========================================================================= //
-  //  Porfolio isotope and filter
-  // ========================================================================= //
-
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
-
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -137,6 +125,13 @@
 	/*--/ Testimonials owl /--*/
 	$('#testimonial-mf').owlCarousel({
 		margin: 20,
+		loop: true,
+		nav: true,
+		dots: true,
+		navText: [
+			'<span class="owl-nav-icon" aria-label="Previous">&#8249;</span>',
+			'<span class="owl-nav-icon" aria-label="Next">&#8250;</span>'
+		],
 		autoplay: true,
 		autoplayTimeout: 4000,
 		autoplayHoverPause: true,

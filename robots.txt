@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Machine-readable CV for AI agents / LLM tools (see https://llmstxt.org)
+# LLM index:  /llms.txt
+# Full CV:    /cv.md
+
+Sitemap: https://lucasnunes.me/sitemap.xml

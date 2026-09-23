@@ -15,6 +15,17 @@ ion-icon {
     line-height: 44px
 }
 
+/* Self-hosted skill icons (replaces the ionicons CDN web component).
+   The extra selector out-specifies Owl's base `.owl-carousel .owl-item img { width:100% }`
+   so the icons keep their intrinsic 44px size instead of stretching to the slide width. */
+.service-icon,
+.services-carousel .owl-item img.service-icon {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 .ion-navigate {
 
@@ -977,6 +988,84 @@ a:hover {
   margin: 0 auto;
   border-radius: 50%;
   line-height: 1.6;
+}
+
+/*--/ Testimonials carousel controls (dots + nav) /--*/
+#testimonial-mf .owl-dots {
+  text-align: center;
+  margin-top: 24px;
+}
+
+#testimonial-mf .owl-dots .owl-dot {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  outline: none;
+  display: inline-block;
+}
+
+#testimonial-mf .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+  margin: 5px 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#testimonial-mf .owl-dots .owl-dot.active span,
+#testimonial-mf .owl-dots .owl-dot:hover span {
+  background: #fff;
+  width: 26px;
+  border-radius: 6px;
+}
+
+#testimonial-mf .owl-nav {
+  display: block;
+}
+
+#testimonial-mf .owl-nav button.owl-prev,
+#testimonial-mf .owl-nav button.owl-next {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
+  border: 0;
+  outline: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  transition: background 0.3s ease-in-out;
+}
+
+#testimonial-mf .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#testimonial-mf .owl-nav button.owl-next {
+  right: 0;
+}
+
+#testimonial-mf .owl-nav button.owl-prev:hover,
+#testimonial-mf .owl-nav button.owl-next:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+#testimonial-mf .owl-nav .owl-nav-icon {
+  display: block;
+  margin-top: -4px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  #testimonial-mf .owl-nav {
+    display: none;
+  }
 }
 
 

@@ -1,0 +1,13 @@
+# Third-party / vendored libraries — never reformat
+lib/
+# Minified or generated files
+**/*.min.js
+**/*.min.css
+**/*.map
+# Binary / generated assets
+*.pdf
+img/
+cv_markdown/
+node_modules/
+# Generated lockfile — never reformat
+package-lock.json
